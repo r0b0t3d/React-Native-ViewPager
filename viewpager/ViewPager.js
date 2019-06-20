@@ -6,6 +6,7 @@
 
 import { PanResponder, Platform, ScrollView, StyleSheet, View, ViewPagerAndroid } from 'react-native'
 import React, { Component } from 'react'
+import ViewPager as ViewPagerAndroid from "@react-native-community/viewpager";
 
 const SCROLLVIEW_REF = 'scrollView'
 const VIEWPAGER_REF = 'viewPager'
